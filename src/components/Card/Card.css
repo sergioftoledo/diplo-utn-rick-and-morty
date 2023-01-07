@@ -1,0 +1,46 @@
+.CardCaracter {
+    width: auto;
+    background-color: #344D67;
+}
+
+.CardCaracter img {
+    width: 100%;
+}
+
+.card-title{
+    color: #f5f5f5;
+    font-size: calc(1.3rem + .6vw);
+}
+
+.btn-show-more {
+    background-color:  #6ECCAF;
+}
+
+.btn-show-more:hover {
+    background-color:  white;
+} 
+
+.containerInfo {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.listaInfo li {
+    list-style: none;
+    font-size: 1.1rem;
+    color: #f5f5f5;
+}
+
+.listaInfo span {
+    font-weight: 700;
+    color: #f5f5f5;
+}
+
+.closeShowMore{
+    padding: 15px;
+    background-color: #6ECCAF;
+    cursor: pointer;
+    align-self: end;
+}

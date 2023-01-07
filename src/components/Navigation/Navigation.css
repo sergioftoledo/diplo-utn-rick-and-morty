@@ -1,0 +1,15 @@
+.navHeader {
+    background-color: #344D67;
+}
+
+.tituloRick, ul li {
+    color: #6ECCAF;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.navHeader li:hover {
+    background-color: #6ECCAF;
+    color: #344D67;
+    border-radius: 4px;
+}

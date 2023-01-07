@@ -1,0 +1,23 @@
+.contenedor-form {
+    min-width: 340px;
+    background-color: #5c7592e6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.btn-form{
+    width: 100px;
+    color: whitesmoke;
+    background-color: #344D67;
+}
+
+.btn-form:hover {
+    background-color: #6ECCAF;
+}

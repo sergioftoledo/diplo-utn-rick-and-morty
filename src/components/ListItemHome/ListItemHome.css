@@ -1,0 +1,9 @@
+.listItem {
+    background-color: #344D67;
+    /* border-radius: 0.375rem; */
+    color: #6ECCAF;
+}
+
+.listItem:hover {
+    background-color:  #6ECCAF;
+}
