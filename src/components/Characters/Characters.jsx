@@ -46,7 +46,8 @@ function Characters() {
     const showInfoApi = async () => {
       const dato = await apiRickAndMorty();
       const infoCharacters = dato.results;
-      setDatos(infoCharacters);
+      setDatos(infoCharacters)
+      setDatosPersonajes(infoCharacters);
     };
     showInfoApi();
   }, []);
