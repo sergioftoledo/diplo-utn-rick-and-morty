@@ -21,3 +21,10 @@ label {
 .btn-form:hover {
     background-color: #6ECCAF;
 }
+@media (max-width:992px) {
+    .contenedor-form {
+        padding: 10px;
+        position: static;
+        margin: 300px 50% 0;
+    }
+}

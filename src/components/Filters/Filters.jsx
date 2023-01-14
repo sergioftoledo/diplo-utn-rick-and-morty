@@ -12,7 +12,7 @@ function Filters({filterName, datoFilter, showValue}) {
         onChange={showValue}
 
       />
-      <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
+      <label className="form-check-label" htmlFor={datoFilter}>
         {filterName}
       </label>
     </div>
